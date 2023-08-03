@@ -1,0 +1,54 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper-container-header{
+    background-color: #1C2D5A;
+    text-align: center;
+    padding: 12px;
+}
+
+.wrapper-container-section{
+    padding: 0 10px;
+    margin-bottom: 50px;
+}
+
+.header-app{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: #fafafa;
+}
+
+.header-app img{
+    width: 70%;
+}
+
+.nav-component ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-component a{
+    font-size: 18px;
+}
+
+.section-app{
+    margin-top: 26px;
+}
+
+ @media screen and (min-width:992px){
+    .header-app{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .header-app img{
+        width: 20%;
+    }
+ }
